@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Icici_Bank</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>CoController</display-name>
+		<servlet-name>CoController</servlet-name>
+		<servlet-class>com.Icici_Bank.controller.CoController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CoController</servlet-name>
+		<url-pattern>/CoController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LogoutController</servlet-name>
+		<servlet-class>com.Icici_Bank.controller.LogoutController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutController</servlet-name>
+		<url-pattern>/LogoutController</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>jsp/index.jsp</welcome-file>
+		<welcome-file>jsp/admin.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

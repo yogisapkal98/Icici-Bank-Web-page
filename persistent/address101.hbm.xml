@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ 	<class name="com.Icici_Bank.persistent.address101" table="address101">
+ 		
+ 		<id name="addid" >
+  		     <generator class="native"></generator>  
+		</id>
+		<many-to-one name="uid_fk" column="uid_fk" class="com.Icici_Bank.persistent.userDB101" cascade="all"/>
+ 		<property name="address" ></property>
+ 		<many-to-one name="sid_fk" column="sid_fk" class="com.Icici_Bank.persistent.state101" cascade="all"/>
+ 		<many-to-one name="cid_fk" column="cid_fk" class="com.Icici_Bank.persistent.city101" cascade="all"/>
+ 		<property name="isActive" ></property>
+ 		<property name="createBy" ></property>
+ 		<property name="createDate" ></property>
+ 		<property name="modifyBy" ></property>
+ 		<property name="modifyDate" ></property>
+ 		</class>
+ 
+ </hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ 	<class name="com.Icici_Bank.persistent.userDB101" table="userDB101">
+ 		
+ 		<id name="uid" >
+  		     <generator class="native"></generator>  
+		</id>
+ 		<property name="fname" ></property>
+ 		<property name="lname" ></property>
+ 		<property name="pancard" ></property>
+ 		<property name="aadhar" ></property>
+ 		<property name="number" ></property>
+ 		<property name="email" ></property>
+ 		<property name="password" ></property>
+ 		<many-to-one name="branch_fk" column="branch_fk" class="com.Icici_Bank.persistent.branch101" cascade="all"/>
+ 		<many-to-one name="rid_fk" column="rid_fk" class="com.Icici_Bank.persistent.role101" cascade="all"/>
+ 		<property name="isActive" ></property>
+ 		<property name="createBy" ></property>
+ 		<property name="createDate" ></property>
+ 		<property name="modifyBy" ></property>
+ 		<property name="modifyDate" ></property>
+ 		<many-to-one name="sid_fk" column="sid_fk" class="com.Icici_Bank.persistent.state101" cascade="all"/>
+ 		<many-to-one name="cid_fk" column="cid_fk" class="com.Icici_Bank.persistent.city101" cascade="all"/>
+ 		</class>
+ 
+ </hibernate-mapping>

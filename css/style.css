@@ -1,0 +1,107 @@
+.wrap{width: 1000px;margin: auto;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;line-height: 1.5;color: #fff;font-size: 12px;background:#eb7320;}
+.wrap .navigation {background: linear-gradient(159.86deg, #ad1e23 46%, #f37e20 85.09%);}
+.wrap .navigation > ul > li > a,.wrap .navigation {border-color: #f37e20; color: #fbfafa; border-bottom-width: 15px;}
+#header {position: relative;width: 100%;padding: 30px 0 20px 0;background: linear-gradient(159.86deg, #f37e20 46%, #ad1e23 85.09%);}
+#logo {float: left;display: block;margin: 40px 0 30px 0;}
+header,div,span,ul,li,img,form,{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;background: transparent;}
+.clearfix:after {clear: both;display: block;visibility: hidden;height: 0;content: ".";}
+.widget-container {margin-bottom: 30px;}
+.widget_search {float: right; text-align: right;font-size: 20px;}
+.widget_search .call > span {color: #fe5214;}
+.navigation {clear: both;margin: 0;width:980px;height: 55px;border-bottom-width: 1px;border-bottom-style: solid;background-repeat: repeat-x;border-radius: 3px;}
+.navigation > ul > li {position: relative;float: left;margin: 0;list-style: none;}
+a{text-decoration:none;}
+.navigation > ul > li > a {position: relative;display: block;padding: 0 20px;border-right-width: 1px;border-right-style: solid;vertical-align: top;text-align: center;font-size: 18px;line-height: 55px;}
+.navigation {background:#3b3b3b;}
+.navigation > ul > li > a,.menu-1 .navigation {border-color: #2b2a2a; color: #fbfafa; border-bottom-width: 0;}
+.navigation{display: inline-block;}
+.navigation > ul > li:hover > a,
+.navigation > ul > li > a {color: #3b3b3b;}
+
+.poster{background-color: #eb7320;margin: 15px;}
+.posterimg{width: 80%;height: auto;}
+
+
+footer{background: linear-gradient(159.86deg, #ad1e23 46%, #f37e20 85.09%); display: flex;justify-content: space-around;padding: 20px;}
+
+
+/*---------------  slider css -------------*/
+
+
+.main_wrapper{width:100%;margin:0 auto;}
+
+.slide {display: none}
+.slider{padding:5px;}
+/* Slideshow container */
+.slide-img {max-width: 100%;position: relative;margin: auto;}
+.slide img{width: 100%;height:300px;}
+/* Next & previous buttons */
+.prev, .next {cursor: pointer;position: absolute;top: 50%;width: auto;padding: 16px;margin-top: -22px;color: black;font-weight: bold;font-size: 18px;transition: 0.6s ease;border-radius: 0 3px 3px 0;}
+
+/* Position the "next button" to the right */
+.next {right: 8px;border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover{ background-color: rgba(0,0,0,0.8);}
+
+/* The dots/bullets/indicators */
+.dot{cursor: pointer;height: 8px;width: 8px;margin: 0px 5px;background-color: #bbb;border-radius: 50%;display: inline-block;transition: background-color 0.6s ease;}
+
+.active, .dot:hover {background-color: #717171;}
+
+
+/*---------- Login Page css ---------*/
+#login{text-align: center;margin-bottom: 20px;border-top: 1px solid #fefefe;border-bottom: 1px solid #dbdbdb;background:linear-gradient(159.86deg, #ad1e23 2%, #f37e20 40.09%);border-radius: 3px;height: 400px;width: 400px;border: solid 10px #fbfafa;}
+#login .title {text-align: center;color: #777;}
+#login .title span {color: #fe5214;}
+#login h1 {font-weight: bold !important;}
+#login .login-field{text-align: center;border: 2px solid transparent;border-radius: 3px;font-size: 16px;font-weight: 200;padding: 10px 0;width: 250px;}
+#login .input-box p {margin: 5px 0 5px 0 !important;padding: 0;line-height: 26px;font-size: 16px !important;color: #36454F;}
+#login .error{font-size: 12px;padding: 6px 0 4px;color: white !important;display: block;}
+.loginbutton {border: 2px solid transparent;background:#2b2a2a ;color: #ffffff;font-size: 16px;line-height: 25px;padding: 10px 0;text-decoration: none;text-shadow: none;border-radius: 3px;box-shadow: none;transition: 0.25s;display: block;width: 250px;margin: 0 auto;}
+.loginbutton:hover {background-color: #fe5214;}
+#login .input-box {margin-bottom: 10px;}
+#login .login-link span {color: #2b2a2a;}
+#login .login-link {font-size: 12px;color: #444;display: block;margin-top: 12px;}
+
+
+/*---------------- Register page ---------------*/
+
+#reg {position: absolute;top: 50%;left: 50%;color: white;transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);display: none;z-index: 3;}
+
+.reg-screen {height: 500px;padding: 15px;width: 400px;margin: 0 auto;background-color: #fbfafa;overflow: scroll;}
+
+#reg hr{border: 1px solid #e6e6e6;  margin-bottom: 5px;  }
+.reg-screen .input-box {margin-bottom: 10px;}
+
+.reg-screen form {text-align: center;margin-bottom: 20px;border-top: 1px solid #fefefe;border-bottom: 1px solid #dbdbdb;background:linear-gradient(159.86deg, #ad1e23 2%, #f37e20 40.09%);border-radius: 3px;}
+.reg-screen input {text-align: center;border: 2px solid transparent;border-radius: 3px;font-size: 16px;font-weight: 200;padding: 10px 0;width: 250px;}
+.reg-screen p {margin: 5px 0 5px 0;padding: 0;line-height: 26px;font-size: 16px;color: #36454F;}
+.reg-screen .sec-input-box{background: white;color: black;text-align: center;border: 2px solid transparent;border-radius: 3px;font-size: 16px;font-weight: 200;padding: 10px 0;width: 250px;margin: auto;}
+.reg-screen select{text-align: center;border: 2px solid transparent;border-radius: 3px;font-size: 16px;font-weight: 200;padding: 10px 0;width: 250px;}
+.reg-screen span {color: #fe5214;}
+#reg .registerbutton  {  background-color: #29a329;  color: white;  padding: 15px 20px;  margin: 10px 0px;  border: none;  cursor: pointer;  width: 100%;  text:bold;  }
+.reg-screen button{border: 2px solid transparent;background:#2b2a2a ;color: #ffffff;font-size: 16px;line-height: 25px;padding: 10px 0;text-decoration: none;text-shadow: none;border-radius: 3px;box-shadow: none;transition: 0.25s;display: block;width: 250px;margin: 0 auto;}
+.reg-screen button:hover {background-color: #fe5214;}
+#reg .error{font-size: 12px;padding: 6px 0 4px;color: white !important;display: block;}
+
+
+
+/*-------     Popup  --------*/
+#popup{ position: fixed;display: none;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.7);z-index:1;cursor: pointer;}
+#close{margin-right: 15px;margin-top: -50px;float: right;display: block;width: 30px;}
+#login{ display: none;position: fixed;top: 50%;left: 50%;color: white;transform: translate(-50%,-50%);z-index:3;}
+#reg{ position: fixed;top: 50%;left: 50%;color: white;display: none;z-index:3;}
+
+
+
+
+
+/*---------------------- service page ---------*/
+#grids .grid-container {display: grid;grid-template-columns: auto auto auto auto;padding: 10px;}
+#grids .grid-item{width: 225px;border-radius: 16px;background-color: orange;font-size: 30px;margin: 10px;padding-bottom: 5px;}
+#grids .grid-text {border-radius: 16px 16px 0px 0px;text-align: center;font-size: 25px;margin: 0px;padding-top: 5px;background-color: orangered;}
+#grids button{border: 2px solid transparent ;color: #ffffff;font-size: 16px;line-height: 25px;padding: 10px 0;text-decoration: none;text-shadow: none;border-radius: 3px;box-shadow: none;transition: 0.25s;display: block;width: 100px;margin: 0 auto;}
+#grids input {margin: 15px;text-align: center;border: 2px solid transparent;border-radius: 3px;font-size: 16px;font-weight: 200;padding: 10px 0;}
+
+
